@@ -1,5 +1,7 @@
 # ASPNET_GERLESSVER
 
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/edinaldorodriguesceara/aspnet_gerlessver/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/edinaldorodriguesceara/aspnet_gerlessver/tree/master)
+
 <div align="center">
   <img src="https://www.dialhost.com.br/ajuda/wp-content/uploads/2018/07/aspnet-featured.png" alt="Aspnet Logo" width="250"/>
 </div>
