@@ -8,8 +8,8 @@
 https://github.com/juniormesquitadandao/gerlessver
 
 ```bash
-git clone ...
-cd project
+git clone https://app.circleci.com/pipelines/github/edinaldorodriguesceara/aspnet_gerlessver
+cd aspnet_gerlessver
   ARG_USER_UID=$(id -u) ARG_USER_GID=$(id -g) docker compose config
   ARG_USER_UID=$(id -u) ARG_USER_GID=$(id -g) docker compose build
   docker compose up -d
