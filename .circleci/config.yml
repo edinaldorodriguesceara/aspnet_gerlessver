@@ -23,9 +23,6 @@ jobs:
           name: Restore Cache
           key: '{{ checksum "project.csproj" }}'
       - run:
-          name: Version
-          command: docker compose exec app dotnet --version
-      - run:
           name: Up
           command: docker compose up -d
       - save_cache:
@@ -34,3 +31,6 @@ jobs:
           paths:
             - bin
             - obj
+      - run:
+          name: Version
+          command: docker compose exec app dotnet --version
