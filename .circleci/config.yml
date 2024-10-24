@@ -24,7 +24,7 @@ jobs:
           key: '{{ checksum "project.csproj" }}'
       - run:
           name: Version
-          command: dotnet --version
+          command: docker compose exec app dotnet --version
       - run:
           name: Up
           command: docker compose up -d
